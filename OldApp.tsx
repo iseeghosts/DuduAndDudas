@@ -1,30 +1,30 @@
-import React from 'react';
-import { StyleSheet, Button, Text, View} from 'react-native';
+// import React from 'react';
+// import { StyleSheet, Button, Text, View} from 'react-native';
 
 
-function newApp() {
-  return(
-    alert('Meow!')
-  );
-}
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <Button onPress={newApp} title={'Click Me!'}/>
-    </View>
-  );
-}
+// function newApp() {
+//   return(
+//     alert('Meow!')
+//   );
+// }
+// export default function App() {
+//   return (
+//     <View style={styles.container}>
+//       <Text>Open up App.tsx to start working on your app!</Text>
+//       <Button onPress={newApp} title={'Click Me!'}/>
+//     </View>
+//   );
+// }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
----------------------------------------------------------------------------------------
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: '#fff',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   },
+// });
+// ---------------------------------------------------------------------------------------
 import React, {Component, useState} from 'react';
 import {Text, TextInput, StyleSheet, Button, View} from 'react-native';
 
